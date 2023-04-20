@@ -19,6 +19,3 @@ int Z2 = Convert.ToInt32(Ztxt2);
 
 double distance = Math.Sqrt(Math.Pow(X2 - X1, 2) + Math.Pow(Y2 - Y1, 2) + Math.Pow(Z2 - Z1, 2));
 System.Console.WriteLine($"Расстояние между точками в 3D пространстве равно: " + Math.Round(distance, 2));
-
-
-// D=sqrt((X2-X1)^2 + (Y2-Y1)^2 + (Z2 - Z1)^2)
